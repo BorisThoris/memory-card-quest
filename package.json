@@ -1,6 +1,6 @@
 {
-  "homepage": "https://boristhoris.github.io/My-react-redux-game-demo/",
-  "name": "react-redux-game",
+  "homepage": "https://BorisThoris.github.io/react-redux-memory-card-game/",
+  "name": "react-redux-memory-card-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

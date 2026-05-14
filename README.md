@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Redux Memory Card Game
 
-## Available Scripts
+Historical React/Redux project built as a browser memory matching game.
 
-In the project directory, you can run:
+This is a React 16 single-page card game where the player flips cards, matches pairs, tracks score and lives, and reaches a game-over state when lives run out. It is kept as a portfolio/archive project that shows early React component composition, Redux state management, randomized game setup, card-flip UI behavior, and GitHub Pages deployment.
 
-### `npm start`
+## What It Demonstrates
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React class-component application structure.
+- Redux store setup with `react-redux` provider wiring.
+- Game state modeled through actions and reducer transitions.
+- Randomized card-pair generation at game start.
+- Flip-card interaction and temporary reveal state.
+- Match detection, score updates, life tracking, disabled matched cards, and game-over display.
+- Separated UI components for game board, cards, score/lives panel, game-over state, and replay control.
+- Create React App build/deploy workflow with GitHub Pages configuration.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- React 16
+- JavaScript
+- Redux
+- React Redux
+- Create React App / `react-scripts@3.0.1`
+- CSS card animations
+- GitHub Pages
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Main Code Areas
 
-### `npm run build`
+- `src/index.js` - Redux store creation and provider setup.
+- `src/App.js` - app entry component.
+- `src/components/game/Game.js` - card generation, game board rendering, and click orchestration.
+- `src/components/mysteryCard/Card.js` - flip-card presentation and card click handling.
+- `src/components/informationDiv/` - score and lives display.
+- `src/components/gameOver/` - game-over overlay.
+- `src/gameRedux/reducer.js` - game state transitions.
+- `src/gameRedux/actionTypes.js` - Redux action constants.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run Locally
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```bash
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Useful scripts:
 
-### `npm run eject`
+```bash
+npm run build
+npm test
+npm run deploy
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployment
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The `homepage` field points to:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```text
+https://BorisThoris.github.io/react-redux-memory-card-game/
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The project includes a `deploy` script using `gh-pages`.
 
-## Learn More
+## Status
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Archived portfolio project. The goal of this repository is to show early React/Redux game-state work, not to represent current production React practices. The dependency stack is intentionally old because the project is preserved close to its original implementation.
