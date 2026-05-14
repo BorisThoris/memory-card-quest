@@ -1,6 +1,6 @@
 {
   "homepage": "https://BorisThoris.github.io/react-redux-memory-card-game/",
-  "name": "react-redux-memory-card-game",
+  "name": "memory-card-quest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

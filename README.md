@@ -1,4 +1,4 @@
-# React Redux Memory Card Game
+# Memory Card Quest
 
 Historical React/Redux project built as a browser memory matching game.
 
