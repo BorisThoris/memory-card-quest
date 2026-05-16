@@ -43,6 +43,8 @@ npm install
 npm start
 ```
 
+Open `http://localhost:3000`. The game is fully client-side and does not require a backend. The npm scripts set the legacy Create React App environment flags needed for modern Node versions.
+
 Useful scripts:
 
 ```bash
@@ -64,3 +66,15 @@ The project includes a `deploy` script using `gh-pages`.
 ## Status
 
 Archived portfolio project. The goal of this repository is to show early React/Redux game-state work, not to represent current production React practices. The dependency stack is intentionally old because the project is preserved close to its original implementation.
+
+## Cloudflare Pages
+
+- Pages project name: `memory-card-quest`
+- GitHub repository: `BorisThoris/memory-card-quest`
+- Production branch: `master`
+- Root directory: `.`
+- Build command: `SKIP_PREFLIGHT_CHECK=true NODE_OPTIONS=--openssl-legacy-provider npx react-scripts build`
+- Build output directory: `build`
+- Public URL target: `https://memory-card-quest.pages.dev/`
+
+Do not enable Cloudflare Access for the demo deployment. Leave frame-blocking headers unset so the portfolio can iframe the public build.
