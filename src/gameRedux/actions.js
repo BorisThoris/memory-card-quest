@@ -57,7 +57,7 @@ const onSetGameIntro = bool => {
 };
 
 const onSetGameLives = lives => {
-  return { type: actionTypes.SET_GAME_INTRO, lives };
+  return { type: actionTypes.SET_GAME_LIVES, lives };
 };
 
 const onUnflipOldCards = cards => {
