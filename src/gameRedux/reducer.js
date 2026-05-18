@@ -27,7 +27,7 @@ const pageReducer = (state = initialState, action) => {
   const newPages = { ...state.pages };
 
   let cardsPressed = state.cardsPressed;
-  let currentCard;
+  let currentCard = state.tempCurrentCard;
   //let tempCurrentCard = state.cardTwo;
 
   let matched = state.matched;
@@ -38,6 +38,7 @@ const pageReducer = (state = initialState, action) => {
   let tempScore = state.score;
   let tempGameOver = state.gameOver;
   let tempFlippedCards = state.flippedCards;
+  let tempDisabled = state.disabled;
 
   let tempArr = [];
   for (let i = 0; i < state.cards.length; i++) {
@@ -75,13 +76,10 @@ const pageReducer = (state = initialState, action) => {
       break;
 
     case actionTypes.UNFLIP_OLD_CARDS:
-      for (let card of action.cards) {
-        for (let index in tempFlippedCards) {
-          if (card === tempFlippedCards[index]) {
-            tempFlippedCards = tempFlippedCards.splice(index - 1, 1);
-          }
-        }
-      }
+      tempFlippedCards = state.flippedCards.filter(cardId => {
+        const cardIsMatched = state.disabled.includes(state.cards[cardId]);
+        return cardIsMatched || !action.cards.includes(cardId);
+      });
 
       cardsPressed = 0;
       tempLastCard = null;
@@ -93,6 +91,14 @@ const pageReducer = (state = initialState, action) => {
       let tempCurrentCard = state.tempCurrentCard;
       let cards = state.cards;
       let disabled = state.disabled;
+
+      if (
+        cardsPressed >= 2 ||
+        tempFlippedCards.includes(action.card) ||
+        disabled.includes(cards[action.card])
+      ) {
+        break;
+      }
 
       const matchBool =
         cards[action.card] &&
@@ -111,7 +117,7 @@ const pageReducer = (state = initialState, action) => {
 
         currentCard = action.card;
         tempLastCard = state.tempCurrentCard;
-        tempFlippedCards.push(currentCard);
+        tempFlippedCards = [...tempFlippedCards, currentCard];
       }
 
       if (cardsPressed === 2) {
@@ -121,21 +127,13 @@ const pageReducer = (state = initialState, action) => {
           tempLives++;
 
           cardsPressed = 0;
-          disabled.push(cards[tempCurrentCard], cards[action.card]);
+          tempDisabled = [...disabled, cards[tempCurrentCard], cards[action.card]];
 
-          if (cards.length === disabled.length) {
+          if (cards.length === tempDisabled.length) {
             window.alert("SuCcEsS");
           }
         } else {
           currentCard = action.card;
-
-          if (typeof currentCard !== undefined) {
-            tempFlippedCards.push(currentCard);
-          }
-
-          if (typeof tempLastCard !== undefined) {
-            tempFlippedCards.push(tempLastCard);
-          }
 
           if (currentCard !== tempLastCard) {
             tempLives--;
@@ -175,7 +173,8 @@ const pageReducer = (state = initialState, action) => {
     lives: tempLives,
     score: tempScore,
     gameOver: tempGameOver,
-    flippedCards: tempFlippedCards
+    flippedCards: tempFlippedCards,
+    disabled: tempDisabled
   };
 };
 

@@ -48,9 +48,13 @@ class Game extends Component {
   }
 
   onClick = id => {
-    const { flipCard, cards, disabled, gameIsOver } = this.props;
+    const { flipCard, cards, disabled, gameIsOver, flippedCards } = this.props;
 
-    if (!disabled.includes(cards[id]) && !gameIsOver) {
+    if (
+      !disabled.includes(cards[id]) &&
+      !flippedCards.includes(id) &&
+      !gameIsOver
+    ) {
       flipCard(id);
     }
     // console.log((e.target.childNodes[0].style.display = "inline-block"));
@@ -115,7 +119,7 @@ class Game extends Component {
       cardDisabled = false;
     }
 
-    if (activeCard && lastCard && cardsPressed === 2) {
+    if (activeCard !== null && lastCard !== null && cardsPressed === 2) {
       // window.alert("hey");
       setTimeout(() => {
         let cardsToFlip = [activeCard, lastCard];
