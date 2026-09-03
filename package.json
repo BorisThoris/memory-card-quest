@@ -1,5 +1,5 @@
 {
-  "homepage": "https://BorisThoris.github.io/react-redux-memory-card-game/",
+  "homepage": ".",
   "name": "memory-card-quest",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "meta": "node scripts/generate-project-meta.mjs",
-    "meta:check": "node scripts/generate-project-meta.mjs --check"
+    "meta:check": "node scripts/generate-project-meta.mjs --check",
+    "shots": "node scripts/capture-project-shots.mjs",
+    "social": "node scripts/generate-social-preview.mjs",
+    "social:check": "node scripts/generate-social-preview.mjs --check"
   },
   "eslintConfig": {
     "extends": "react-app"
