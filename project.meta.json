@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T20:45:32.780Z",
+  "generatedAt": "2026-09-03T21:50:31.256Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -23,7 +23,7 @@
   "links": {
     "deploymentUrl": "https://memory-card-quest-git.pages.dev/",
     "localUrl": "http://127.0.0.1:4114/",
-    "homepage": "https://BorisThoris.github.io/react-redux-memory-card-game/",
+    "homepage": ".",
     "repository": "https://github.com/BorisThoris/memory-card-quest"
   },
   "runtime": {
@@ -41,52 +41,64 @@
       "predeploy",
       "deploy",
       "meta",
-      "meta:check"
+      "meta:check",
+      "shots",
+      "social",
+      "social:check"
     ]
   },
   "capture": {
     "route": "/"
   },
   "media": {
-    "source": "portfolio-capture",
-    "directory": "C:/Users/Gaming PC/Desktop/Repos/portfolio/public/project-shots/memory-card-quest/latest",
-    "primary": "/project-shots/memory-card-quest/latest/card.jpg",
+    "source": "repo-local",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/react-redux-memory-card-game/project-media",
+    "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
-        "path": "/project-shots/memory-card-quest/latest/card.jpg",
+        "path": "project-media/card.jpg",
         "bytes": 278096,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-08-27T12:18:11.893Z"
+        "capturedAt": "2026-09-03T21:42:17.429Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
-        "path": "/project-shots/memory-card-quest/latest/desktop.jpg",
+        "path": "project-media/desktop.jpg",
         "bytes": 256996,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-08-27T12:18:13.937Z"
+        "capturedAt": "2026-09-03T21:42:18.954Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
-        "path": "/project-shots/memory-card-quest/latest/full.jpg",
+        "path": "project-media/full.jpg",
         "bytes": 215394,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-08-27T12:18:18.017Z"
+        "capturedAt": "2026-09-03T21:42:21.984Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
-        "path": "/project-shots/memory-card-quest/latest/mobile.jpg",
+        "path": "project-media/mobile.jpg",
         "bytes": 154360,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-08-27T12:18:15.976Z"
+        "capturedAt": "2026-09-03T21:42:20.458Z"
+      },
+      {
+        "profile": "og",
+        "file": "og.jpg",
+        "path": "project-media/og.jpg",
+        "bytes": 230206,
+        "width": 1200,
+        "height": 630,
+        "capturedAt": "2026-09-03T21:42:23.500Z"
       }
     ]
   },
@@ -114,9 +126,9 @@
     "devDependencyCount": 1
   },
   "metrics": {
-    "sourceFiles": 23,
+    "sourceFiles": 25,
     "testFiles": 2,
-    "sourceLines": 2003,
+    "sourceLines": 2464,
     "largestDirectories": [
       {
         "directory": "src",
@@ -124,7 +136,7 @@
       },
       {
         "directory": "scripts",
-        "files": 2
+        "files": 4
       },
       {
         "directory": "public",
@@ -147,10 +159,10 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "f31a3d9",
-    "lastCommitDate": "2026-09-03T23:42:38+03:00",
-    "lastCommitSubject": "Wire up the meta scripts",
-    "commitCount": 20,
+    "head": "d6c7419",
+    "lastCommitDate": "2026-09-03T23:46:16+03:00",
+    "lastCommitSubject": "Refresh project metadata",
+    "commitCount": 21,
     "remote": "https://github.com/BorisThoris/memory-card-quest.git"
   },
   "readme": {

@@ -53,6 +53,15 @@ export default {
   analysisNotes:
     "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
 
+  // Where the link-preview card lives: the page head that carries the Open
+  // Graph tags, and the static directory the image is published from.
+  social: {
+    "htmlFile": "public/index.html",
+    "staticDir": "public",
+    "imageName": "og-image.jpg",
+    "imageUrlPath": "/og-image.jpg"
+  },
+
   media: {
     sourceDir: path.join(portfolioRoot, "public", "project-shots", "memory-card-quest", "latest"),
     publicPathPrefix: "/project-shots/memory-card-quest/latest",
