@@ -1,0 +1,160 @@
+{
+  "$schema": "./scripts/project.meta.schema.json",
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03T20:39:09.614Z",
+  "generatedBy": "scripts/generate-project-meta.mjs",
+  "identity": {
+    "slug": "memory-card-quest",
+    "repoName": "react-redux-memory-card-game",
+    "packageName": "memory-card-quest",
+    "version": "0.1.0",
+    "title": "Memory Card Quest",
+    "subtitle": "React Redux memory game",
+    "description": "An early React/Redux card-matching game preserved close to its original implementation.",
+    "tags": [
+      "React",
+      "Redux",
+      "Game"
+    ],
+    "accent": "#c084fc",
+    "classification": "web-app",
+    "showcaseTier": "more"
+  },
+  "links": {
+    "deploymentUrl": "https://memory-card-quest-git.pages.dev/",
+    "localUrl": "http://127.0.0.1:4114/",
+    "homepage": "https://BorisThoris.github.io/react-redux-memory-card-game/",
+    "repository": "https://github.com/BorisThoris/memory-card-quest"
+  },
+  "runtime": {
+    "packageManager": "npm",
+    "buildCommand": "npm run build",
+    "buildOutput": "build",
+    "runCommand": "npm start",
+    "devPort": 4114,
+    "serveBasePath": "/react-redux-memory-card-game",
+    "scripts": [
+      "start",
+      "build",
+      "test",
+      "eject",
+      "predeploy",
+      "deploy",
+      "meta",
+      "meta:check"
+    ]
+  },
+  "capture": {
+    "route": "/"
+  },
+  "media": {
+    "source": "portfolio-capture",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/portfolio/public/project-shots/memory-card-quest/latest",
+    "primary": "/project-shots/memory-card-quest/latest/card.jpg",
+    "images": [
+      {
+        "profile": "card",
+        "file": "card.jpg",
+        "path": "/project-shots/memory-card-quest/latest/card.jpg",
+        "bytes": 278096,
+        "width": 1600,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:18:11.893Z"
+      },
+      {
+        "profile": "desktop",
+        "file": "desktop.jpg",
+        "path": "/project-shots/memory-card-quest/latest/desktop.jpg",
+        "bytes": 256996,
+        "width": 1440,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:18:13.937Z"
+      },
+      {
+        "profile": "full",
+        "file": "full.jpg",
+        "path": "/project-shots/memory-card-quest/latest/full.jpg",
+        "bytes": 215394,
+        "width": 1440,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:18:18.017Z"
+      },
+      {
+        "profile": "mobile",
+        "file": "mobile.jpg",
+        "path": "/project-shots/memory-card-quest/latest/mobile.jpg",
+        "bytes": 154360,
+        "width": 430,
+        "height": 932,
+        "capturedAt": "2026-08-27T12:18:15.976Z"
+      }
+    ]
+  },
+  "stack": {
+    "framework": "React",
+    "language": "JavaScript",
+    "runtimeTargets": [
+      "web"
+    ],
+    "libraries": [
+      {
+        "name": "react",
+        "version": "^16.8.6"
+      },
+      {
+        "name": "react-dom",
+        "version": "^16.8.6"
+      },
+      {
+        "name": "redux",
+        "version": "^4.0.4"
+      }
+    ],
+    "dependencyCount": 6,
+    "devDependencyCount": 1
+  },
+  "metrics": {
+    "sourceFiles": 23,
+    "testFiles": 2,
+    "sourceLines": 2000,
+    "largestDirectories": [
+      {
+        "directory": "src",
+        "files": 20
+      },
+      {
+        "directory": "scripts",
+        "files": 2
+      },
+      {
+        "directory": "public",
+        "files": 1
+      }
+    ],
+    "hasReadme": true,
+    "hasTests": true,
+    "hasCi": false,
+    "hasDocs": false
+  },
+  "scores": {
+    "priorityScore": 55,
+    "demoabilityScore": 68,
+    "depthScore": 52,
+    "polishScore": 54,
+    "uniquenessScore": 52,
+    "maintenanceScore": 48
+  },
+  "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
+  "git": {
+    "branch": "master",
+    "head": "19816c4",
+    "lastCommitDate": "2026-05-18T13:55:50+03:00",
+    "lastCommitSubject": "Merge memory card reducer coverage",
+    "commitCount": 18,
+    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
+  },
+  "readme": {
+    "file": "README.md",
+    "heading": "Memory Card Quest"
+  }
+}
