@@ -62,6 +62,13 @@ export default {
     "imageUrlPath": "/og-image.jpg"
   },
 
+  // The icon set is rendered from favicon.svg by scripts/generate-app-icons.mjs.
+  icons: {
+    "background": "#2e1065",
+    "themeColor": "#2e1065",
+    "shortName": "Memory Quest"
+  },
+
   media: {
     sourceDir: path.join(portfolioRoot, "public", "project-shots", "memory-card-quest", "latest"),
     publicPathPrefix: "/project-shots/memory-card-quest/latest",

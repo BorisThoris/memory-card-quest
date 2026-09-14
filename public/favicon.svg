@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Memory Card Quest">
+  <rect width="64" height="64" rx="12" fill="#2e1065"/>
+  <rect x="10" y="14" width="24" height="34" rx="4" fill="#7c3aed" transform="rotate(-10 22 31)"/>
+  <rect x="14" y="18" width="16" height="26" rx="2" fill="none" stroke="#c4b5fd" stroke-width="2" transform="rotate(-10 22 31)"/>
+  <rect x="30" y="16" width="24" height="34" rx="4" fill="#f5f3ff" transform="rotate(8 42 33)"/>
+  <path d="M42 22 l2.9 5.9 6.5 .9 -4.7 4.6 1.1 6.5 -5.8 -3.1 -5.8 3.1 1.1 -6.5 -4.7 -4.6 6.5 -.9 Z" fill="#c084fc" transform="rotate(8 42 33)"/>
+</svg>

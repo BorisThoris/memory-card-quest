@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T21:50:31.256Z",
+  "generatedAt": "2026-09-14T20:41:28.379Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -44,7 +44,10 @@
       "meta:check",
       "shots",
       "social",
-      "social:check"
+      "social:check",
+      "icons",
+      "icons:check",
+      "meta:refresh"
     ]
   },
   "capture": {
@@ -126,9 +129,9 @@
     "devDependencyCount": 1
   },
   "metrics": {
-    "sourceFiles": 25,
+    "sourceFiles": 27,
     "testFiles": 2,
-    "sourceLines": 2464,
+    "sourceLines": 2938,
     "largestDirectories": [
       {
         "directory": "src",
@@ -136,7 +139,7 @@
       },
       {
         "directory": "scripts",
-        "files": 4
+        "files": 6
       },
       {
         "directory": "public",
@@ -159,10 +162,10 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "d6c7419",
-    "lastCommitDate": "2026-09-03T23:46:16+03:00",
-    "lastCommitSubject": "Refresh project metadata",
-    "commitCount": 21,
+    "head": "72f7833",
+    "lastCommitDate": "2026-09-04T00:53:30+03:00",
+    "lastCommitSubject": "Wire up the shots and social scripts",
+    "commitCount": 23,
     "remote": "https://github.com/BorisThoris/memory-card-quest.git"
   },
   "readme": {
