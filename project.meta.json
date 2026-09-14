@@ -1,11 +1,11 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T21:36:27.342Z",
+  "generatedAt": "2026-09-14T22:05:58.020Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
-    "repoName": "react-redux-memory-card-game",
+    "repoName": "memory-card-quest",
     "packageName": "memory-card-quest",
     "version": "0.1.0",
     "title": "Memory Card Quest",
@@ -131,7 +131,7 @@
   "metrics": {
     "sourceFiles": 27,
     "testFiles": 2,
-    "sourceLines": 2966,
+    "sourceLines": 2975,
     "largestDirectories": [
       {
         "directory": "src",
@@ -162,10 +162,10 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "1de90f2",
-    "lastCommitDate": "2026-09-14T23:58:13+03:00",
-    "lastCommitSubject": "Sync the metadata toolkit scripts and regenerate project.meta.json",
-    "commitCount": 25,
+    "head": "f74383e",
+    "lastCommitDate": "2026-09-15T00:39:30+03:00",
+    "lastCommitSubject": "Gate pushes on a current link-preview card and icon set",
+    "commitCount": 26,
     "remote": "https://github.com/BorisThoris/memory-card-quest.git"
   },
   "readme": {
