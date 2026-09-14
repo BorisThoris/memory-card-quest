@@ -1,8 +1,8 @@
 {
   "slug": "memory-card-quest",
-  "capturedAt": "2026-09-03T21:42:23.578Z",
-  "source": "explicit",
-  "url": "http://127.0.0.1:4322/",
+  "capturedAt": "2026-09-14T22:28:53.231Z",
+  "source": "deployment",
+  "url": "https://memory-card-quest-git.pages.dev/",
   "recipe": {
     "route": "/"
   },
@@ -12,7 +12,7 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 278096,
+      "bytes": 278363,
       "status": "captured"
     },
     {
@@ -20,7 +20,7 @@
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 256996,
+      "bytes": 257230,
       "status": "captured"
     },
     {
@@ -28,7 +28,7 @@
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 154360,
+      "bytes": 154557,
       "status": "captured"
     },
     {
@@ -36,7 +36,7 @@
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 215394,
+      "bytes": 215569,
       "status": "captured"
     },
     {
@@ -44,7 +44,7 @@
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 230206,
+      "bytes": 229926,
       "status": "captured"
     }
   ]

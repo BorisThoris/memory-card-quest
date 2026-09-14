@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T22:05:58.020Z",
+  "generatedAt": "2026-09-14T22:28:53.362Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -55,53 +55,53 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "C:/Users/Gaming PC/Desktop/Repos/react-redux-memory-card-game/project-media",
+    "directory": "/home/runner/work/memory-card-quest/memory-card-quest/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 278096,
+        "bytes": 278363,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-03T21:42:17.429Z"
+        "capturedAt": "2026-09-14T22:28:47.251Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 256996,
+        "bytes": 257230,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-03T21:42:18.954Z"
+        "capturedAt": "2026-09-14T22:28:48.727Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 215394,
+        "bytes": 215569,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-03T21:42:21.984Z"
+        "capturedAt": "2026-09-14T22:28:51.743Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 154360,
+        "bytes": 154557,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-03T21:42:20.458Z"
+        "capturedAt": "2026-09-14T22:28:50.199Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 230206,
+        "bytes": 229926,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-03T21:42:23.500Z"
+        "capturedAt": "2026-09-14T22:28:53.205Z"
       }
     ]
   },
@@ -162,11 +162,11 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "f74383e",
-    "lastCommitDate": "2026-09-15T00:39:30+03:00",
-    "lastCommitSubject": "Gate pushes on a current link-preview card and icon set",
-    "commitCount": 26,
-    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
+    "head": "8f56899",
+    "lastCommitDate": "2026-09-15T01:05:59+03:00",
+    "lastCommitSubject": "Refresh screenshots, card, icons and metadata after every deployment",
+    "commitCount": 27,
+    "remote": "https://github.com/BorisThoris/memory-card-quest"
   },
   "readme": {
     "file": "README.md",
