@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T12:15:34.671Z",
+  "generatedAt": "2026-09-15T12:31:54.013Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -56,7 +56,7 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "C:/Users/Gaming PC/Desktop/Repos/react-redux-memory-card-game/project-media",
+    "directory": "/home/runner/work/memory-card-quest/memory-card-quest/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
@@ -66,7 +66,7 @@
         "bytes": 278363,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-14T22:49:52.931Z"
+        "capturedAt": "2026-09-15T12:31:48.038Z"
       },
       {
         "profile": "desktop",
@@ -75,7 +75,7 @@
         "bytes": 257230,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T22:49:52.934Z"
+        "capturedAt": "2026-09-15T12:31:49.518Z"
       },
       {
         "profile": "full",
@@ -84,7 +84,7 @@
         "bytes": 215569,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T22:49:53.004Z"
+        "capturedAt": "2026-09-15T12:31:52.401Z"
       },
       {
         "profile": "mobile",
@@ -93,7 +93,7 @@
         "bytes": 154557,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-14T22:49:53.007Z"
+        "capturedAt": "2026-09-15T12:31:50.944Z"
       },
       {
         "profile": "og",
@@ -102,7 +102,7 @@
         "bytes": 229926,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-14T22:49:53.009Z"
+        "capturedAt": "2026-09-15T12:31:53.897Z"
       }
     ]
   },
@@ -163,11 +163,11 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "7d54941",
-    "lastCommitDate": "2026-09-15T01:49:53+03:00",
-    "lastCommitSubject": "Let the refresh wait up to 90 minutes for a queued Cloudflare build [meta-bot]",
-    "commitCount": 29,
-    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
+    "head": "bfa6206",
+    "lastCommitDate": "2026-09-15T15:19:03+03:00",
+    "lastCommitSubject": "Say what the app actually is: specific title, blurb and tags for the card",
+    "commitCount": 30,
+    "remote": "https://github.com/BorisThoris/memory-card-quest"
   },
   "readme": {
     "file": "README.md",
