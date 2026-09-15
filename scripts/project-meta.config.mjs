@@ -18,12 +18,13 @@ export default {
 
   curated: {
     "title": "Memory Card Quest",
-    "subtitle": "React Redux memory game",
-    "description": "An early React/Redux card-matching game preserved close to its original implementation.",
+    "subtitle": "Flip, match, and keep your lives",
+    "description": "A card-matching memory game in React and Redux: flip two cards, match the pair, watch the score climb and the lives fall, and replay when they run out. Randomised pairs every game and a Redux store that models each flip.",
     "tags": [
+      "Game",
       "React",
       "Redux",
-      "Game"
+      "Archive"
     ],
     "accent": "#c084fc",
     "deploymentUrl": "https://memory-card-quest-git.pages.dev/",
@@ -57,6 +58,7 @@ export default {
   // Graph tags, and the static directory the image is published from.
   social: {
     "htmlFile": "public/index.html",
+    "pageTitle": "Memory Card Quest",
     "staticDir": "public",
     "imageName": "og-image.jpg",
     "imageUrlPath": "/og-image.jpg"

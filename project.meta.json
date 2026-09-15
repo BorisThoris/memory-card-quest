@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T22:28:53.362Z",
+  "generatedAt": "2026-09-15T12:15:34.671Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -9,12 +9,13 @@
     "packageName": "memory-card-quest",
     "version": "0.1.0",
     "title": "Memory Card Quest",
-    "subtitle": "React Redux memory game",
-    "description": "An early React/Redux card-matching game preserved close to its original implementation.",
+    "subtitle": "Flip, match, and keep your lives",
+    "description": "A card-matching memory game in React and Redux: flip two cards, match the pair, watch the score climb and the lives fall, and replay when they run out. Randomised pairs every game and a Redux store that models each flip.",
     "tags": [
+      "Game",
       "React",
       "Redux",
-      "Game"
+      "Archive"
     ],
     "accent": "#c084fc",
     "classification": "web-app",
@@ -55,7 +56,7 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "/home/runner/work/memory-card-quest/memory-card-quest/project-media",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/react-redux-memory-card-game/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
@@ -65,7 +66,7 @@
         "bytes": 278363,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-14T22:28:47.251Z"
+        "capturedAt": "2026-09-14T22:49:52.931Z"
       },
       {
         "profile": "desktop",
@@ -74,7 +75,7 @@
         "bytes": 257230,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T22:28:48.727Z"
+        "capturedAt": "2026-09-14T22:49:52.934Z"
       },
       {
         "profile": "full",
@@ -83,7 +84,7 @@
         "bytes": 215569,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T22:28:51.743Z"
+        "capturedAt": "2026-09-14T22:49:53.004Z"
       },
       {
         "profile": "mobile",
@@ -92,7 +93,7 @@
         "bytes": 154557,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-14T22:28:50.199Z"
+        "capturedAt": "2026-09-14T22:49:53.007Z"
       },
       {
         "profile": "og",
@@ -101,7 +102,7 @@
         "bytes": 229926,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-14T22:28:53.205Z"
+        "capturedAt": "2026-09-14T22:49:53.009Z"
       }
     ]
   },
@@ -131,7 +132,7 @@
   "metrics": {
     "sourceFiles": 27,
     "testFiles": 2,
-    "sourceLines": 2975,
+    "sourceLines": 3019,
     "largestDirectories": [
       {
         "directory": "src",
@@ -162,11 +163,11 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "8f56899",
-    "lastCommitDate": "2026-09-15T01:05:59+03:00",
-    "lastCommitSubject": "Refresh screenshots, card, icons and metadata after every deployment",
-    "commitCount": 27,
-    "remote": "https://github.com/BorisThoris/memory-card-quest"
+    "head": "7d54941",
+    "lastCommitDate": "2026-09-15T01:49:53+03:00",
+    "lastCommitSubject": "Let the refresh wait up to 90 minutes for a queued Cloudflare build [meta-bot]",
+    "commitCount": 29,
+    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
   },
   "readme": {
     "file": "README.md",

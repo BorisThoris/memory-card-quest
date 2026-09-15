@@ -1,7 +1,7 @@
 {
   "name": "Memory Card Quest",
   "short_name": "Memory Quest",
-  "description": "An early React/Redux card-matching game preserved close to its original implementation.",
+  "description": "A card-matching memory game in React and Redux: flip two cards, match the pair, watch the score climb and the lives fall, and replay when they run out. Randomised pairs every game and a Redux store that models each flip.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
