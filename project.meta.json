@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T12:31:54.013Z",
+  "generatedAt": "2026-09-17T10:25:20.954Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -56,53 +56,53 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "/home/runner/work/memory-card-quest/memory-card-quest/project-media",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/react-redux-memory-card-game/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 278363,
+        "bytes": 278096,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-15T12:31:48.038Z"
+        "capturedAt": "2026-09-17T10:25:14.242Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 257230,
+        "bytes": 256996,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-15T12:31:49.518Z"
+        "capturedAt": "2026-09-17T10:25:15.784Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 215569,
+        "bytes": 215394,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-15T12:31:52.401Z"
+        "capturedAt": "2026-09-17T10:25:18.864Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 154557,
+        "bytes": 154360,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-15T12:31:50.944Z"
+        "capturedAt": "2026-09-17T10:25:17.308Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 229926,
+        "bytes": 230206,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-15T12:31:53.897Z"
+        "capturedAt": "2026-09-17T10:25:20.377Z"
       }
     ]
   },
@@ -167,7 +167,7 @@
     "lastCommitDate": "2026-09-15T15:19:03+03:00",
     "lastCommitSubject": "Say what the app actually is: specific title, blurb and tags for the card",
     "commitCount": 30,
-    "remote": "https://github.com/BorisThoris/memory-card-quest"
+    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
   },
   "readme": {
     "file": "README.md",
