@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T10:25:20.954Z",
+  "generatedAt": "2026-09-24T14:47:44.424Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -48,7 +48,9 @@
       "social:check",
       "icons",
       "icons:check",
-      "meta:refresh"
+      "meta:refresh",
+      "trailers",
+      "trailers:check"
     ]
   },
   "capture": {
@@ -56,53 +58,53 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "C:/Users/Gaming PC/Desktop/Repos/react-redux-memory-card-game/project-media",
+    "directory": "/home/runner/work/memory-card-quest/memory-card-quest/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 278096,
+        "bytes": 278363,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-17T10:25:14.242Z"
+        "capturedAt": "2026-09-24T14:47:37.622Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 256996,
+        "bytes": 257230,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-17T10:25:15.784Z"
+        "capturedAt": "2026-09-24T14:47:39.234Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 215394,
+        "bytes": 215569,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-17T10:25:18.864Z"
+        "capturedAt": "2026-09-24T14:47:42.399Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 154360,
+        "bytes": 154557,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-17T10:25:17.308Z"
+        "capturedAt": "2026-09-24T14:47:40.812Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 230206,
+        "bytes": 229926,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-17T10:25:20.377Z"
+        "capturedAt": "2026-09-24T14:47:44.095Z"
       }
     ]
   },
@@ -130,9 +132,9 @@
     "devDependencyCount": 1
   },
   "metrics": {
-    "sourceFiles": 27,
+    "sourceFiles": 28,
     "testFiles": 2,
-    "sourceLines": 3019,
+    "sourceLines": 3600,
     "largestDirectories": [
       {
         "directory": "src",
@@ -140,7 +142,7 @@
       },
       {
         "directory": "scripts",
-        "files": 6
+        "files": 7
       },
       {
         "directory": "public",
@@ -163,11 +165,11 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "bfa6206",
-    "lastCommitDate": "2026-09-15T15:19:03+03:00",
-    "lastCommitSubject": "Say what the app actually is: specific title, blurb and tags for the card",
-    "commitCount": 30,
-    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
+    "head": "560ec9e",
+    "lastCommitDate": "2026-09-24T16:47:38+03:00",
+    "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
+    "commitCount": 35,
+    "remote": "https://github.com/BorisThoris/memory-card-quest"
   },
   "readme": {
     "file": "README.md",
