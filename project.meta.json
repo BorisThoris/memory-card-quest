@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T18:13:13.672Z",
+  "generatedAt": "2026-09-27T20:39:20.324Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -76,46 +76,46 @@
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 98204,
+        "bytes": 97918,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-27T18:13:09.868Z"
+        "capturedAt": "2026-09-27T20:39:17.071Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 96834,
+        "bytes": 96571,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T18:13:10.833Z"
+        "capturedAt": "2026-09-27T20:39:17.903Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 80879,
+        "bytes": 80723,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T18:13:12.566Z"
+        "capturedAt": "2026-09-27T20:39:19.453Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 52141,
+        "bytes": 52101,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-27T18:13:11.703Z"
+        "capturedAt": "2026-09-27T20:39:18.644Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 81643,
+        "bytes": 81715,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-27T18:13:13.509Z"
+        "capturedAt": "2026-09-27T20:39:20.215Z"
       }
     ],
     "trailers": [
@@ -158,9 +158,9 @@
     "devDependencyCount": 1
   },
   "metrics": {
-    "sourceFiles": 33,
-    "testFiles": 4,
-    "sourceLines": 4202,
+    "sourceFiles": 36,
+    "testFiles": 5,
+    "sourceLines": 4460,
     "largestDirectories": [
       {
         "directory": "src",
@@ -168,11 +168,11 @@
       },
       {
         "directory": "scripts",
-        "files": 12
+        "files": 14
       },
       {
         "directory": "public",
-        "files": 1
+        "files": 2
       }
     ],
     "hasReadme": true,
@@ -191,10 +191,10 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "0c7180b",
-    "lastCommitDate": "2026-09-27T20:59:11+03:00",
-    "lastCommitSubject": "Capture current card gameplay and original-style preview media",
-    "commitCount": 44,
+    "head": "2be4665",
+    "lastCommitDate": "2026-09-27T23:29:47+03:00",
+    "lastCommitSubject": "Serve published trailers with real HTTP byte ranges",
+    "commitCount": 46,
     "remote": "https://github.com/BorisThoris/memory-card-quest"
   },
   "readme": {
