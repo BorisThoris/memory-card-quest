@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T17:58:46.140Z",
+  "generatedAt": "2026-09-27T18:13:13.672Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -69,53 +69,53 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "C:/Users/Gaming PC/Documents/Codex/2026-09-27/new-chat/work/game-releases/memory-card-quest/project-media",
+    "directory": "/home/runner/work/memory-card-quest/memory-card-quest/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 100929,
+        "bytes": 98204,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-27T17:57:16.549Z"
+        "capturedAt": "2026-09-27T18:13:09.868Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 99497,
+        "bytes": 96834,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T17:57:18.005Z"
+        "capturedAt": "2026-09-27T18:13:10.833Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 83406,
+        "bytes": 80879,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T17:57:20.197Z"
+        "capturedAt": "2026-09-27T18:13:12.566Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 54470,
+        "bytes": 52141,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-27T17:57:19.109Z"
+        "capturedAt": "2026-09-27T18:13:11.703Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 85138,
+        "bytes": 81643,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-27T17:57:21.969Z"
+        "capturedAt": "2026-09-27T18:13:13.509Z"
       }
     ],
     "trailers": [
@@ -190,12 +190,12 @@
   },
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
-    "branch": "codex/product-polish-release",
-    "head": "48f89c1",
-    "lastCommitDate": "2026-09-27T20:57:48+03:00",
-    "lastCommitSubject": "Refine original card game with complete responsive play and records",
-    "commitCount": 43,
-    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
+    "branch": "master",
+    "head": "0c7180b",
+    "lastCommitDate": "2026-09-27T20:59:11+03:00",
+    "lastCommitSubject": "Capture current card gameplay and original-style preview media",
+    "commitCount": 44,
+    "remote": "https://github.com/BorisThoris/memory-card-quest"
   },
   "readme": {
     "file": "README.md",
