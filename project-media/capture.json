@@ -1,33 +1,20 @@
 {
   "slug": "memory-card-quest",
-  "capturedAt": "2026-09-27T14:50:04.260Z",
-  "source": "deployment",
-  "url": "https://memory-card-quest-git.pages.dev/",
+  "capturedAt": "2026-09-27T17:57:22.974Z",
+  "source": "local",
+  "url": "http://127.0.0.1:4512/",
   "recipe": {
     "route": "/",
+    "readySelector": ".quest-board",
     "actions": [
       {
         "type": "click",
         "target": {
-          "role": "button",
-          "name": "New game"
-        },
-        "label": "start a new game",
-        "optional": true
-      },
-      {
-        "type": "click",
-        "target": {
-          "selector": "[class*=card]"
-        },
-        "label": "flip the first card"
-      },
-      {
-        "type": "wait",
-        "ms": 500
+          "selector": ".quest-card:first-child"
+        }
       }
     ],
-    "waitAfterReadyMs": 600
+    "waitAfterReadyMs": 500
   },
   "profiles": [
     {
@@ -35,90 +22,75 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 274857,
+      "bytes": 100929,
       "status": "captured",
       "stats": {
-        "mean": 130,
-        "std": 42,
+        "mean": 38,
+        "std": 31,
         "dark": 0,
         "light": 0,
-        "colours": 45
-      },
-      "skipped": [
-        "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
-      ]
+        "colours": 22
+      }
     },
     {
       "profile": "desktop",
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 254820,
+      "bytes": 99497,
       "status": "captured",
       "stats": {
-        "mean": 127,
-        "std": 40,
+        "mean": 40,
+        "std": 32,
         "dark": 0,
         "light": 0,
-        "colours": 51
-      },
-      "skipped": [
-        "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
-      ]
+        "colours": 23
+      }
     },
     {
       "profile": "mobile",
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 152132,
+      "bytes": 54470,
       "status": "captured",
       "stats": {
-        "mean": 89,
+        "mean": 48,
         "std": 39,
-        "dark": 0.006,
+        "dark": 0,
         "light": 0,
-        "colours": 102
-      },
-      "skipped": [
-        "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
-      ]
+        "colours": 43
+      }
     },
     {
       "profile": "full",
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 213436,
+      "bytes": 83406,
       "status": "captured",
       "stats": {
-        "mean": 127,
-        "std": 40,
+        "mean": 40,
+        "std": 32,
         "dark": 0,
         "light": 0,
-        "colours": 51
-      },
-      "skipped": [
-        "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
-      ]
+        "colours": 23
+      }
     },
     {
       "profile": "og",
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 229298,
+      "bytes": 85138,
       "status": "captured",
       "stats": {
-        "mean": 106,
-        "std": 37,
+        "mean": 42,
+        "std": 31,
         "dark": 0,
         "light": 0,
-        "colours": 51
-      },
-      "skipped": [
-        "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
-      ]
+        "colours": 23
+      }
     }
   ]
 }

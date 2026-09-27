@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T14:50:04.368Z",
+  "generatedAt": "2026-09-27T17:58:46.140Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -10,20 +10,20 @@
     "version": "0.1.0",
     "title": "Memory Card Quest",
     "subtitle": "Flip, match, and keep your lives",
-    "description": "A card-matching memory game in React and Redux: flip two cards, match the pair, watch the score climb and the lives fall, and replay when they run out. Randomised pairs every game and a Redux store that models each flip.",
+    "description": "A React and Redux memory game with 6, 8 or 10 pairs. Match named symbols, earn hearts back, use keyboard grid controls, and improve the best move count saved for each board size.",
     "tags": [
       "Game",
       "React",
       "Redux",
       "Archive"
     ],
-    "accent": "#c084fc",
+    "accent": "#dec184",
     "classification": "web-app",
     "showcaseTier": "more"
   },
   "links": {
     "deploymentUrl": "https://memory-card-quest-git.pages.dev/",
-    "localUrl": "http://127.0.0.1:4114/",
+    "localUrl": "http://127.0.0.1:4512/",
     "homepage": ".",
     "repository": "https://github.com/BorisThoris/memory-card-quest"
   },
@@ -31,9 +31,8 @@
     "packageManager": "npm",
     "buildCommand": "npm run build",
     "buildOutput": "build",
-    "runCommand": "npm start",
-    "devPort": 4114,
-    "serveBasePath": "/react-redux-memory-card-game",
+    "runCommand": "node scripts/serve-demo.cjs build 4512",
+    "devPort": 4512,
     "scripts": [
       "start",
       "build",
@@ -57,79 +56,66 @@
   },
   "capture": {
     "route": "/",
+    "readySelector": ".quest-board",
     "actions": [
       {
         "type": "click",
         "target": {
-          "role": "button",
-          "name": "New game"
-        },
-        "label": "start a new game",
-        "optional": true
-      },
-      {
-        "type": "click",
-        "target": {
-          "selector": "[class*=card]"
-        },
-        "label": "flip the first card"
-      },
-      {
-        "type": "wait",
-        "ms": 500
+          "selector": ".quest-card:first-child"
+        }
       }
     ],
-    "waitAfterReadyMs": 600
+    "waitAfterReadyMs": 500
   },
   "media": {
     "source": "repo-local",
-    "directory": "/home/runner/work/memory-card-quest/memory-card-quest/project-media",
+    "directory": "C:/Users/Gaming PC/Documents/Codex/2026-09-27/new-chat/work/game-releases/memory-card-quest/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 274857,
+        "bytes": 100929,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-27T14:48:58.125Z"
+        "capturedAt": "2026-09-27T17:57:16.549Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 254820,
+        "bytes": 99497,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T14:49:14.685Z"
+        "capturedAt": "2026-09-27T17:57:18.005Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 213436,
+        "bytes": 83406,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-27T14:49:47.698Z"
+        "capturedAt": "2026-09-27T17:57:20.197Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 152132,
+        "bytes": 54470,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-27T14:49:31.177Z"
+        "capturedAt": "2026-09-27T17:57:19.109Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 229298,
+        "bytes": 85138,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-27T14:50:04.227Z"
+        "capturedAt": "2026-09-27T17:57:21.969Z"
       }
     ],
     "trailers": [
@@ -139,12 +125,12 @@
         "url": "https://memory-card-quest-git.pages.dev/trailers/tour.mp4",
         "poster": "https://memory-card-quest-git.pages.dev/trailers/tour.jpg",
         "file": "public/trailers/tour.mp4",
-        "bytes": 2354622,
+        "bytes": 799430,
         "width": 1280,
         "height": 720,
         "duration": 20,
         "orientation": "landscape",
-        "builtAt": "2026-09-27T13:11:59.910Z"
+        "builtAt": "2026-09-27T17:58:01.986Z"
       }
     ]
   },
@@ -172,9 +158,9 @@
     "devDependencyCount": 1
   },
   "metrics": {
-    "sourceFiles": 31,
+    "sourceFiles": 33,
     "testFiles": 4,
-    "sourceLines": 4522,
+    "sourceLines": 4202,
     "largestDirectories": [
       {
         "directory": "src",
@@ -182,7 +168,7 @@
       },
       {
         "directory": "scripts",
-        "files": 10
+        "files": 12
       },
       {
         "directory": "public",
@@ -204,12 +190,12 @@
   },
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
-    "branch": "master",
-    "head": "ae587f9",
-    "lastCommitDate": "2026-09-27T17:34:01+03:00",
-    "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
-    "commitCount": 41,
-    "remote": "https://github.com/BorisThoris/memory-card-quest"
+    "branch": "codex/product-polish-release",
+    "head": "48f89c1",
+    "lastCommitDate": "2026-09-27T20:57:48+03:00",
+    "lastCommitSubject": "Refine original card game with complete responsive play and records",
+    "commitCount": 43,
+    "remote": "https://github.com/BorisThoris/memory-card-quest.git"
   },
   "readme": {
     "file": "README.md",

@@ -1,7 +1,7 @@
 {
   "name": "Memory Card Quest",
   "short_name": "Memory Quest",
-  "description": "A card-matching memory game in React and Redux: flip two cards, match the pair, watch the score climb and the lives fall, and replay when they run out. Randomised pairs every game and a Redux store that models each flip.",
+  "description": "A React and Redux memory game with 6, 8 or 10 pairs. Match named symbols, earn hearts back, use keyboard grid controls, and improve the best move count saved for each board size.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
