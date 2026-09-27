@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "tour",
+      "title": "Memory Card Quest: flip, match, keep your lives",
+      "kind": "capture",
+      "inputsHash": "92242087f93e60bfb0e511e946b32d1dab0ae715dc94cfdf5f30ec2be37ec6c7",
+      "builtAt": "2026-09-27T13:11:59.910Z",
+      "source": "project-media/.captures/tour.webm",
+      "file": "public/trailers/tour.mp4",
+      "poster": "public/trailers/tour.jpg",
+      "urlPath": "/trailers/tour.mp4",
+      "posterUrlPath": "/trailers/tour.jpg",
+      "bytes": 2354622,
+      "width": 1280,
+      "height": 720,
+      "duration": 20,
+      "fps": 30,
+      "orientation": "landscape",
+      "music": "project-media/music/tour.m4a",
+      "stats": {
+        "mean": 120,
+        "std": 41,
+        "dark": 0,
+        "light": 0,
+        "colours": 42
+      }
+    }
+  ]
+}
