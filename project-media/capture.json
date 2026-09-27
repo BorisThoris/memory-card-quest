@@ -1,6 +1,6 @@
 {
   "slug": "memory-card-quest",
-  "capturedAt": "2026-09-27T13:14:49.895Z",
+  "capturedAt": "2026-09-27T13:22:11.611Z",
   "source": "deployment",
   "url": "https://memory-card-quest-git.pages.dev/",
   "recipe": {
@@ -35,14 +35,14 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 274569,
+      "bytes": 274830,
       "status": "captured",
       "stats": {
         "mean": 130,
         "std": 42,
         "dark": 0,
         "light": 0,
-        "colours": 46
+        "colours": 45
       },
       "skipped": [
         "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
@@ -53,14 +53,14 @@
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 254480,
+      "bytes": 254838,
       "status": "captured",
       "stats": {
         "mean": 127,
         "std": 40,
         "dark": 0,
         "light": 0,
-        "colours": 52
+        "colours": 51
       },
       "skipped": [
         "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
@@ -71,14 +71,14 @@
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 151917,
+      "bytes": 152154,
       "status": "captured",
       "stats": {
         "mean": 89,
-        "std": 40,
+        "std": 39,
         "dark": 0.006,
         "light": 0,
-        "colours": 103
+        "colours": 102
       },
       "skipped": [
         "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
@@ -89,14 +89,14 @@
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 213171,
+      "bytes": 213424,
       "status": "captured",
       "stats": {
         "mean": 127,
         "std": 40,
         "dark": 0,
         "light": 0,
-        "colours": 52
+        "colours": 51
       },
       "skipped": [
         "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
@@ -107,14 +107,14 @@
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 229619,
+      "bytes": 229329,
       "status": "captured",
       "stats": {
         "mean": 106,
         "std": 37,
         "dark": 0,
         "light": 0,
-        "colours": 52
+        "colours": 51
       },
       "skipped": [
         "optional step skipped (start a new game): locator.click: Timeout 15000ms exceeded."
