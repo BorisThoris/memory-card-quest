@@ -78,3 +78,17 @@ Archived portfolio project. The goal of this repository is to show early React/R
 - Public URL target: `https://memory-card-quest.pages.dev/`
 
 Do not enable Cloudflare Access for the demo deployment. Leave frame-blocking headers unset so the portfolio can iframe the public build.
+
+## Refined playable build
+
+The original dark teal and gold board remains. Choose 6, 8 or 10 pairs; match named symbols, recover a heart on a match and try to beat the move record for that board size. Tab or arrow keys select a card; Enter flips it. A mismatch briefly locks selection while both cards are shown. Win/loss and New game return to a fresh playable board. Records are stored locally.
+
+Use Node.js 22 and run:
+
+```powershell
+npm ci
+npm run build
+node scripts/serve-demo.cjs build 4512
+```
+
+Open http://127.0.0.1:4512/ . Use `npm start` for development and `npm test -- --watchAll=false --runInBand` for the reducer regression suite. The portable Node wrapper applies the compatibility environment required by this retained Create React App 3 toolchain on both Windows and Linux.

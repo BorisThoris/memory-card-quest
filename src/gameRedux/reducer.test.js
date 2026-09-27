@@ -89,3 +89,27 @@ describe("game reducer card flips", () => {
     expect(repeatedClick.cardsPressed).toBe(1);
   });
 });
+
+it("wins without an alert, clears pair selection and restarts cleanly", () => {
+  const cards = [0, 0, 1, 1].map((value, id) => ({ id, key: id, value }));
+  let state = buildState(cards);
+  [0, 1, 2, 3].forEach(card => { state = reducer(state, { type: actionTypes.ON_CARD_FLIP, card }); });
+  expect(state.won).toBe(true);
+  expect(state.gameOver).toBe(true);
+  expect(state.score).toBe(100);
+  expect(state.moves).toBe(2);
+  expect(state.tempCurrentCard).toBeNull();
+  const restarted = reducer(state, { type: "NEW_GAME", cards });
+  expect(restarted.gameOver).toBe(false);
+  expect(restarted.flippedCards).toEqual([]);
+  expect(restarted.disabled).toEqual([]);
+  expect(restarted.score).toBe(0);
+});
+it("blocks a third flip while resolving a mismatch and all flips after losing", () => {
+  const cards = [0, 1, 0, 1].map((value, id) => ({ id, key: id, value }));
+  let state = reducer(buildState(cards), { type: actionTypes.SET_GAME_LIVES, lives: 1 });
+  state = reducer(state, { type: actionTypes.ON_CARD_FLIP, card: 0 });
+  state = reducer(state, { type: actionTypes.ON_CARD_FLIP, card: 1 });
+  expect(state.gameOver).toBe(true);
+  expect(reducer(state, { type: actionTypes.ON_CARD_FLIP, card: 2 })).toBe(state);
+});
