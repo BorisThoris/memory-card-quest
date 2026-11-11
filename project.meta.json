@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T01:11:25.006Z",
+  "generatedAt": "2026-11-11T23:53:15.176Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "memory-card-quest",
@@ -76,19 +76,19 @@
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 96899,
+        "bytes": 96885,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-10-13T01:11:09.084Z"
+        "capturedAt": "2026-11-11T23:53:00.971Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 95508,
+        "bytes": 95411,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-10-13T01:11:12.856Z"
+        "capturedAt": "2026-11-11T23:53:04.011Z"
       },
       {
         "profile": "full",
@@ -97,25 +97,25 @@
         "bytes": 80232,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-10-13T01:11:20.016Z"
+        "capturedAt": "2026-11-11T23:53:10.175Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 51409,
+        "bytes": 51577,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-10-13T01:11:16.248Z"
+        "capturedAt": "2026-11-11T23:53:07.091Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 79769,
+        "bytes": 79605,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-10-13T01:11:23.492Z"
+        "capturedAt": "2026-11-11T23:53:13.371Z"
       }
     ],
     "trailers": [
@@ -191,10 +191,10 @@
   "analysisNotes": "Small React/Redux memory game; demoable and useful as early work, but intentionally lower emphasis.",
   "git": {
     "branch": "master",
-    "head": "f5a2750",
-    "lastCommitDate": "2026-10-13T01:43:56+03:00",
-    "lastCommitSubject": "Hosted jobs move to the owner's own runners",
-    "commitCount": 48,
+    "head": "e3d21fb",
+    "lastCommitDate": "2026-11-12T01:36:25+02:00",
+    "lastCommitSubject": "Republish the link-preview card from the new screenshots",
+    "commitCount": 51,
     "remote": "https://github.com/BorisThoris/memory-card-quest"
   },
   "readme": {

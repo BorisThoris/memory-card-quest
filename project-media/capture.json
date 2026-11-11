@@ -1,6 +1,6 @@
 {
   "slug": "memory-card-quest",
-  "capturedAt": "2026-11-11T21:18:53.736Z",
+  "capturedAt": "2026-11-11T23:53:14.343Z",
   "source": "deployment",
   "url": "https://memory-card-quest-git.pages.dev/",
   "recipe": {
@@ -22,14 +22,14 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 100970,
+      "bytes": 96885,
       "status": "captured",
       "stats": {
         "mean": 38,
-        "std": 31,
+        "std": 30,
         "dark": 0,
         "light": 0,
-        "colours": 22
+        "colours": 23
       }
     },
     {
@@ -37,14 +37,14 @@
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 99497,
+      "bytes": 95411,
       "status": "captured",
       "stats": {
         "mean": 40,
         "std": 32,
         "dark": 0,
         "light": 0,
-        "colours": 23
+        "colours": 24
       }
     },
     {
@@ -52,14 +52,14 @@
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 54437,
+      "bytes": 51577,
       "status": "captured",
       "stats": {
-        "mean": 48,
-        "std": 39,
+        "mean": 47,
+        "std": 38,
         "dark": 0,
         "light": 0,
-        "colours": 43
+        "colours": 39
       }
     },
     {
@@ -67,14 +67,14 @@
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 83458,
+      "bytes": 80232,
       "status": "captured",
       "stats": {
         "mean": 40,
         "std": 32,
         "dark": 0,
         "light": 0,
-        "colours": 23
+        "colours": 24
       }
     },
     {
@@ -82,14 +82,14 @@
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 85282,
+      "bytes": 79605,
       "status": "captured",
       "stats": {
         "mean": 42,
         "std": 31,
         "dark": 0,
         "light": 0,
-        "colours": 22
+        "colours": 23
       }
     }
   ]
